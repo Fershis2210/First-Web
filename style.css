@@ -1,0 +1,171 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+body {
+  background: #F2E3D5;
+}
+
+.debug {
+  border: 1px solid red;
+}
+
+header {
+  background-color: #026773;
+  font-family: "PT Serif", serif;
+  font-size: 20px;
+}
+header a {
+  text-decoration: none;
+}
+
+section {
+    margin: 50px 0 50px 0;
+}
+.container__nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container__ul {
+  display: flex;
+  list-style: none;
+  width: 50%;
+  justify-content: space-around;
+  align-items: center;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #012E40;
+  font-weight: 600px;
+}
+
+.text-bold {
+  color: #F2E3D5;
+  font-weight: 400;
+}
+
+.logo {
+  display: inline-block;
+}
+
+.logo img {
+  width: 60px;
+  height: auto;
+}
+
+.container {
+  max-width: 100%;
+  margin: 0 auto 0 auto;
+  padding: 0 150px 0 150px;
+}
+
+.container__hero {
+    display: flex;
+}
+
+.avatar {
+    width: 260px;
+    height: auto;
+}
+
+.container__info__avatar {
+    font-family: "Dancing Script", cursive;
+    color: #012E40;
+    margin: 50px 0 0 30px;
+}
+
+.container__who__i__am {
+    font-family: "PT Serif", serif;
+    color: #2D3E40;
+}
+
+footer {
+  width: 100%;
+  margin: 0%;
+}
+
+.container__footer {
+  background-color: #026773;
+  color:#F2E3D5;
+  font-family: "PT Serif", serif;
+  font-weight: 500;
+}
+
+h3 .footer__title {
+  font-family: "PT Serif", serif;
+  font-weight: 700;
+}
+
+.txt__14 {
+    font-size: 18px;
+}
+
+.txt__56 {
+    font-size: 56px;
+}
+
+.txt__10 {
+    font-size: 14px;
+}
+
+.txt__48 {
+    font-size: 48px;
+}
+
+.txt__40 {
+    font-size: 40px;
+}
+.txt__24 {
+    font-size: 24px;
+}
+.txt__16 {
+    font-size: 16px;
+}
+
+.m__20 {
+    margin-top: 20px;
+}
+
+.color__svg {
+  color: #F2E3D5;
+}
+
+.color__svg:hover {
+  color:#012E40
+}
+
+.proyects__title h3 {
+  font-family: "PT Serif", serif;
+  color: #2D3E40;
+}
+
+@media (max-width: 680px) {
+    .google {
+        background-color: rgb(117, 33, 54);
+    }
+    .container__project {
+        width: 100%;
+        border-radius: 10px;
+        padding: 10px;
+        height: 200px;
+        flex-direction: column;
+        justify-content: flex-end;
+        gap: 20px;
+    }
+    .container {
+        max-width: 500px;
+        padding: 35px;
+      }
+  }
